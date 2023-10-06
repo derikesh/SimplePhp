@@ -1,0 +1,79 @@
+@media (max-width:600px) {
+    
+    .car_detail{
+        width: 95%;
+        margin: auto;
+    }
+
+    .banner_wrap h1 {
+        font-size: 40px;
+    }
+
+    .single_Car  {
+        width: 100% !important;
+    } 
+
+}
+
+
+@media (max-width:900px) {
+    
+    .car_detail{
+        width: 95%;
+        margin: auto;
+    }
+
+    .about_flex_content {
+        flex-direction: column;
+    }
+
+    .about_description , .about_company{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .staffs {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .staff_wrap ,.map_wrpa {
+        width: 90%;
+        margin: auto;
+    }
+
+    .form_wrap{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+
+    .single_Staff {
+        width: fit-content;
+    }
+
+    .container_search , .cars_wrap , .add_container{
+        width: 90%;
+        margin: auto;
+    }
+
+    .single_Car  {
+        width: 45%;
+    }
+
+    .form_wrap_add input{
+        width: 100%;
+    }
+
+    .form_wrap_add input{
+        margin-left: 0;
+    }
+
+    .cars_wrap  {
+        justify-content: space-around;
+    }
+    
+
+}
